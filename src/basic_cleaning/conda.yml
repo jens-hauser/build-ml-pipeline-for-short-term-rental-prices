@@ -1,12 +1,10 @@
-name: data_check
+name: basic_cleaning
 channels:
   - conda-forge
   - defaults
 dependencies:
-  - pandas=1.2.3
-  - pytest=6.2.2
-  - scipy=1.5.2
   - pip=20.3.3
+  - pandas=1.2.3
   - mlflow=1.14.1  
   - pip:
       - wandb==0.10.31
